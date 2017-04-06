@@ -1,0 +1,21 @@
+header {
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.reveal h1 {
+    text-shadow: none;
+}
+
+.slides h2 {
+    margin-bottom: 30px;
+}
+
+.slides ul li {
+    margin-bottom: 10px;
+}
