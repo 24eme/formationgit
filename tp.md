@@ -74,13 +74,13 @@ Commandes vues : git clone, git log, git blame, git diff, git shortlog
 
 4. Quelle ligne a été ajouté à ce fichier lors du dernier commit ?
 
-5. Dans les dix derniers commits, le fichier giilda34DRMRelationCascadeTest à été modifié, à combien est égal le stock dont revendique ?
+5. Quel fichier à été modifié en dernier dans le dossier project/test
 
-6. Par qui et quand a été modifié la ligne 116 du fichier plugins/acVinSocietePlugin/lib/model/Societe/Societe.class.php
+6. Par qui et quand a été modifié la ligne 116 du fichier project/plugins/acVinSocietePlugin/lib/model/Societe/Societe.class.php
 
 7. Quelle est le numéro de commit de cette modification ligne 116 ?
 
-8. Quelle le commentaire écrit pour ce commit ?
+8. Quelle est le commentaire écrit pour ce commit ?
 
 ### Sur les branches
 
@@ -88,11 +88,11 @@ Commandes vues : git clone, git log, git blame, git diff, git shortlog
 
 2. Combien de branches possèdent le projet ?
 
-3. Quelle la particularité du dernier commit dans la branche ivbd
+3. Quelle est la particularité du dernier commit dans la branche ivbd
 
 4. Combien de commit de master ne sont pas dans bivc ?
 
-5. Quelle est la différence de code dans le fichier project/bin/exportSageBL.sh entre la branche master et bivc ?
+5. Combien de fichiers ont des différences de code entre master et bivc ?
 
 ### Statistiques
 
@@ -140,7 +140,7 @@ Même exercice mais cette fois on le commit
 
 Récupération
 
-* Supprimer le contenu du fichier et Commiter
+* Supprimer le contenu du fichier et commiter
 * Récupérer le fichier à l'aide de checkout
 
 ### Stash
@@ -167,7 +167,7 @@ Récupération
 ### Rebase
 
 * Faire une fusion avec rebase
-* Melanger plusieurs commit sen un seul
+* Melanger plusieurs commit en un seul
 
 ## Pull request / patch
 
