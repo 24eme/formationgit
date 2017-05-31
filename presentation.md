@@ -51,7 +51,7 @@ Tous les gros projets open source ont migré dessus :
 
 Noyau Linux, Python, PHP, Perl, Ubuntu ...
 
-+ de 31 millions de projets open source
+plus de 31 millions de projets open source
 
 Utilisé par 12 millions de personnes
 
