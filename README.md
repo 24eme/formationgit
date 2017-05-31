@@ -2,7 +2,7 @@
 
 Contenu de la formation git
 
-## Téorique
+## Théorique
 
 * [La présentation](presentation.md)
 * [Les outils](outils.md)
