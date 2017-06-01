@@ -17,4 +17,4 @@ Le livre de Git : https://git-scm.com/book/fr/v2 [(version PDF)](https://progit2
 
 ##  Script
 
-Ce script bash permet de configurer git et récupérer un dépôt distant : bin/formationinstall.sh
+Ce script bash permet de configurer git et récupérer un dépôt distant : [bin/formationinstall.sh](bin/formationinstall.sh)
