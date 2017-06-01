@@ -13,7 +13,7 @@ Contenu de la formation git, les contenus sont réutilisables sous license CC-BY
 
 ## Documentation
 
-Le livre de Git : https://git-scm.com/book/fr/v2
+Le livre de Git : https://git-scm.com/book/fr/v2 [version PDF](https://progit2.s3.amazonaws.com/fr/2016-03-05-4c838/progit-fr.1062.pdf)
 
 ##  Script
 
