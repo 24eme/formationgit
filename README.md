@@ -1,6 +1,6 @@
 # Formation Git
 
-Contenu de la formation git
+Contenu de la formation git, les contenus sont réutilisables sous license CC-BY-SA
 
 ## Théorique
 
