@@ -18,3 +18,8 @@ Le livre de Git : https://git-scm.com/book/fr/v2 [(version PDF)](https://progit2
 ##  Script
 
 Ce script bash permet de configurer git et récupérer un dépôt distant : [bin/formationinstall.sh](bin/formationinstall.sh)
+
+## Articles ou ressources intéressantes
+
+* Tutoriel interactif sous forme de jeu pour apprendre à manipuler les branches : http://learngitbranching.js.org/
+* Bien utiliser Git merge et rebase : https://delicious-insights.com/fr/articles/bien-utiliser-git-merge-et-rebase/
