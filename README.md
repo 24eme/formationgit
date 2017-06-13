@@ -24,3 +24,5 @@ Ce script bash permet de configurer git et récupérer un dépôt distant : [bin
 * Tutoriel interactif sous forme de jeu pour apprendre à manipuler les branches : http://learngitbranching.js.org/
 * Bien utiliser Git merge et rebase : https://delicious-insights.com/fr/articles/bien-utiliser-git-merge-et-rebase/
 * La puissance des workflows git : https://medium.com/@OVHUXLabs/la-puissance-des-workflows-git-12e195cafe44
+* Slides sur le fonctionnement de git : https://bobmaerten.eu/blog/introduction-a-git/
+* Podcast sur la gestion de versions du code source (git) : https://lerubynouveau.fr/017.html
