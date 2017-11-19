@@ -26,3 +26,4 @@ Ce script bash permet de configurer git et récupérer un dépôt distant : [bin
 * La puissance des workflows git : https://medium.com/@OVHUXLabs/la-puissance-des-workflows-git-12e195cafe44
 * Slides sur le fonctionnement de git : https://bobmaerten.eu/blog/introduction-a-git/
 * Podcast sur Git (et plus généralement la gestion de versions du code source)  : https://lerubynouveau.fr/017.html
+* GitPourLaNulle, explications sur les branches, fork et commit : http://articles.nissone.com/2014/11/gitpourlanulle/
