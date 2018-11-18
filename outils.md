@@ -1,26 +1,27 @@
-# Outils autour de git
+# Ecosystem of Git : the tools
 
-## Gérer des dépôts (en saas)
+## Organize team work (saas)
 
 * Github
-* Framagit (gitlab)
+* Gitlab / framagit / ...
+* Bitbucket
 
-## Gérer des dépôts (logiciels open source)
+## Access points (open source)
 
-* Gogs
+* Gogs/Gitea
 * Gitlab
 
-## Compatibilité
+## Portability
 
-* Git avec SVN
-* Git avec Mercurial
-* Git avec Bazaar
+* SVN over GIT
+* SVN to GIT
+* Mercurial 
+* Bazaar
+* ...
 
-Utilisation : https://git-scm.com/book/fr/v2/Git-et-les-autres-syst%C3%A8mes-Git-comme-client
+https://git-scm.com/book/en/v2/Git-and-Other-Systems-Git-as-a-Client
 
-Migration : https://git-scm.com/book/fr/v2/Git-et-les-autres-syst%C3%A8mes-Migration-vers-Git
-
-## Utilisant Git
+## Git modules
 
 * git-annex</li>
 * git-mediawiki</li>

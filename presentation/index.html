@@ -42,162 +42,258 @@
 		<div class="reveal">
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
-					<img src="images/logo.svg" alt="" style="border: none; box-shadow: none" />&nbsp;<span style="font-size: 18x;"></span>
-				</section>
-				<section>
-					<h2>Gestionnaire de versions (VCS)</h2>
-
-					<ul>
-						<li>Stocker les versions des changements de fichiers</li>
-						<li>Parcourir cette historique de changements</li>
-						<li>Revenir à une version précédente</li>
-					</ul>
-				</section>
-				<section>
-					<h2>Utilisations</h2>
-
-					<ul>
-						<li>Projets informatiques<br /><small>(code source, logiciel, site web, etc...)</small></li>
-						<li>Données brutes lisibles<br /><small>(csv, config, texte, etc...)</small></li>
-					</ul>
-				</section>
-				<section>
-					<h2>Objectif</h2>
-
-					<ul>
-						<li>Comprendre</li>
-						<li>Travail en équipe</li>
-						<li>Revenir en arrière</li>
-						<li>Rassurant</li>
-						<li>Maintenabilité / Évolutivité</li>
-					</ul>
-				</section>
-				<section>
-					<h2>Les Outils</h2>
-
-					<h3 style="margin-top: 20px;">Centralisé</h3>
-
-					<ul>
-						<li>CVS (1990-2008)</li>
-						<li>SVN (2000)</li>
-					</ul>
-
-					<h3 style="margin-top: 20px;">Décentralisé</h3>
-
-					<ul>
-						<li>BitKeeper (1998)</li>
-						<li>Bazaar (2005)</li>
-						<li>Mercurial (2005)</li>
-						<li>Git (2005)</li>
-					</ul>
-				</section>
-				<section>
-					<h2>Un peu d'histoire</h2>
-
-					<p>Créé en 2005 par Linus Torvald</p>
-
-					<p>Noyau linux</p>
-
-					<p>Remplacer BitKeeper (propiétaire)</p>
-
-					<p>Développé en 10 jours !</p>
-
-					<p>Première release en 1 an (3,5 ans pour SVN)</p>
-				</section>
-				<section>
-					<h2>Succès</h2>
-
-					<p>Tous les gros projets open source ont migré dessus :<br />
-
-					<p>Noyau Linux, Python, PHP, Perl, Ubuntu ...</p>
-
-					<p>+ de 31 millions de projets open source <small>(en 2016)</small></p>
-
-					<p>Utilisé par 12 millions de personnes</p>
-
-					<p><small>Utilisé par Microsoft</small></p>
-				</section>
-				<section>
-					<h2>Décentralisé</h2>
-
-					<ul>
-						<li>Ce n'est pas une architecture client / serveur</li>
-						<li>Tout le monde est dépôt</li>
-						<li>Intelligence de versionnement sur chaque dépot</li>
-						<li>Stockage des versions et partage séparés</li>
-					</ul>
-				</section>
-				<section>
-					<h2>Avantage de la décentralisation</h2>
-
-					<ul>
-						<li>Plus simple à déployer</li>
-						<li>Équipé pour gérer des conflits / fusions</li>
-						<li>Plusieurs modes de fonctionnement</li>
-						<li>Plus d'indépendance</li>
-						<li>Travail hors connexion</li>
-					</ul>
-				</section>
-
-				<section>
-					<h1>Outils autour de git</h1>
-				</section>
-
-				<section>
-					<h2>Gérer des dépôts (en saas)</h2>
-
-					<ul>
-						<li>Github</li>
-						<li>Framagit (gitlab)</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Gérer des dépôts (logiciels open source)</h2>
-					<ul>
-						<li>Gogs</li>
-						<li>Gitlab</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Compatibilité</h2>
-
-					<ul>
-						<li>Git avec SVN</li>
-						<li>Git avec Mercurial</li>
-						<li>Git avec Bazaar</li>
-					</ul>
-
-					<p>
-						<small>Utilisation : <a href="https://git-scm.com/book/fr/v2/Git-et-les-autres-syst%C3%A8mes-Git-comme-client">https://git-scm.com/book/fr/v2/Git-et-les-autres-syst%C3%A8mes-Git-comme-client</a></small><br />
-						<small>Migration : <a href="https://git-scm.com/book/fr/v2/Git-et-les-autres-syst%C3%A8mes-Migration-vers-Git">https://git-scm.com/book/fr/v2/Git-et-les-autres-syst%C3%A8mes-Migration-vers-Git</a></small>
-					</p>
-				</section>
-
-				<section>
-					<h2>Utilisant Git</h2>
-
-					<ul>
-						<li>git-annex</li>
-						<li>git-etc</li>
-						<li>git-mediawiki</li>
-						<li>git-ftp</li>
-						<li>git-cvs</li>
-						<li>git-it</li>
-						<li>git-doc</li>
-						<li>etckeeper: https://etckeeper.branchable.com/</li>
-						<li>calypso : https://github.com/agx/calypso</li>
-						<li>Git avec les documents libreoffice https://hackriculture.fr/git-diff-de-fichiers-opendocument-libreoffice.html</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Documentation</h2>
-
-					<p>Livre de git : <a href="https://git-scm.com/book/fr/v2">https://git-scm.com/book/fr/v2</a></p>
-				</section>
+<section><section id="git" class="title-slide slide level1"><h1>GIT</h1></section><section id="version-control-systems" class="slide level2">
+<h2>Version Control Systems</h2>
+<ul>
+<li>Keep track of all versions and all changes of the files</li>
+<li>Have acces to the history of all changes</li>
+<li>Going back to a previous version</li>
+</ul>
+</section><section id="uses" class="slide level2">
+<h2>Uses</h2>
+<ul>
+<li>IT projects (source code, software, web site, etc…)</li>
+<li>RAW Data lisibles (csv, config, text, etc…)</li>
+</ul>
+</section><section id="goals" class="slide level2">
+<h2>Goals</h2>
+<ul>
+<li>Understand</li>
+<li>Team work</li>
+<li>Going back</li>
+<li>Reassuring</li>
+<li>Maintainability / Scalability</li>
+</ul>
+</section><section id="tools" class="slide level2">
+<h2>Tools</h2>
+<h3 id="centralized">Centralized</h3>
+<ul>
+<li>CVS (1990-2008)</li>
+<li>SVN (2000)</li>
+</ul>
+<h3 id="decentralized">Decentralized</h3>
+<ul>
+<li>BitKeeper (1998)</li>
+<li>Bazaar (2005)</li>
+<li>Mercurial (2005)</li>
+<li>Git (2005)</li>
+</ul>
+</section><section id="the-birth-of-git" class="slide level2">
+<h2>The birth of GIT</h2>
+<p>Created in 2005 by Linus Torvald</p>
+<p>Linux Kernel</p>
+<p>Remplacement of BitKeeper (proprietary)</p>
+<p>First version in 10 days!</p>
+<p>First release: 1 year (3,5 for SVN)</p>
+</section><section id="success" class="slide level2">
+<h2>Success</h2>
+<p>Used by the biggest open source projects:</p>
+<p>Linux Kernel, Python, PHP, Perl, Ubuntu …</p>
+<p>Over 31 millions open source projets</p>
+<p>Utilised by over 12 millions developpers</p>
+<p>Even used by Microsoft ;-)</p>
+</section><section id="decentralized-1" class="slide level2">
+<h2>Decentralized</h2>
+<ul>
+<li>Not a « client / server » architecture
+</li></li>
+<li>Every user is a repository
+</li></li>
+<li>Versionning knowledge stored localy
+</li></li>
+<li>Storage and sharing are separated
+</li></li>
+</ul>
+</section><section id="benefits-of-the-decentralization" class="slide level2">
+<h2>Benefits of the decentralization</h2>
+<ul>
+<li>Easier to deploy</li>
+<li>Conflits and merges are core</li>
+<li>Allow diversity of usages</li>
+<li>Better independance</li>
+<li>Allow offline work</li>
+</ul>
+</section></section>
+<section><section id="git-hands-on" class="title-slide slide level1"><h1>Git Hands-on</h1></section><section id="needs" class="slide level2">
+<h2>Needs</h2>
+<ul>
+<li>git</li>
+<li>ssh</li>
+</ul>
+</section><section id="configuration-basics-ssh" class="slide level2">
+<h2>Configuration basics: ssh</h2>
+<ul>
+<li>a pair of keys: <code>ssh-key-gen</code></li>
+<li>the public key known by the server: <code>ssh-copy-id user@host</code></li>
+<li>… or by the service (gitlab, github, …): <code>cat ~/.ssh/id_rsa.pub</code></li>
+</ul>
+</section><section id="configuration-basics-git" class="slide level2">
+<h2>Configuration basics: git</h2>
+<ul>
+<li>Declare who you are:
+<ul>
+<li>git config –global user.name “John Doe”</li>
+<li>git config –global user.email “john@mail.org”</li>
+</ul></li>
+<li>Choose your text editor:
+<ul>
+<li>git config –global core.editor “vim”</li>
+</ul></li>
+<li>Check your push strategy (<em>matching</em>):
+<ul>
+<li>git config push.default</li>
+</ul></li>
+</ul>
+</section><section id="git-configuration" class="slide level2">
+<h2>Git configuration</h2>
+<ul>
+<li>Two configuration files:
+<ul>
+<li>your global conf: <code>~/.gitconfig</code></li>
+<li>the repo one: <code>myrepo/.git/config</code></li>
+</ul></li>
+</ul>
+</section><section id="retrieve-and-dialogue-with-a-repository" class="slide level2">
+<h2>Retrieve and dialogue with a repository</h2>
+<ul>
+<li>Copy an unknown repository:
+<ul>
+<li><code>git clone user@host:repository.git</code></li>
+</ul></li>
+<li>dialogue with a repository:
+<ul>
+<li>retrieve versions from the repository: <code>git pull</code></li>
+<li>send versions to the repository: <code>git push</code></li>
+</ul></li>
+</ul>
+</section><section id="the-excquisite-cadaver" class="slide level2">
+<h2>The excquisite cadaver</h2>
+</section><section id="how-to-create-a-version" class="slide level2">
+<h2>How to create a version</h2>
+<ul>
+<li>create a new version:
+<ul>
+<li><code>git add path/to/the/modified_file.txt</code></li>
+<li><code>git commit</code> <em>+ a commit message</em></li>
+</ul></li>
+<li>share the version:
+<ul>
+<li><code>git pull</code></li>
+<li><code>git push</code></li>
+</ul></li>
+<li>observe the versions:
+<ul>
+<li><code>git log</code></li>
+<li><code>git log --state</code></li>
+<li><code>git log -p</code></li>
+</ul></li>
+</ul>
+</section><section id="the-excquisite-cadaver-v0.2" class="slide level2">
+<h2>The excquisite cadaver v0.2</h2>
+</section><section id="conflicts" class="slide level2">
+<h2>Conflicts</h2>
+<p>Most conflicts are solved automaticaly</p>
+<p>Some need human assistance:</p>
+<pre><code>$ git pull
+Auto-merging file.txt
+CONFLICT (content): Merge conflict in file.txt
+Automatic merge failed; fix conflicts and then commit the result.</code></pre>
+</section><section id="text-representation-of-conflicts" class="slide level2">
+<h2>Text representation of conflicts</h2>
+<p>Two conflicting files:</p>
+<pre><code>| common lines                     | common lines                   |
+| ...                              | ...                            |
+| my lines                         | someone else                   |
+| as committed                     | lines                          |
+| ...                              | ....                           |
+| non conflicting lines            | non conflicting lines          |</code></pre>
+<p>Git representation:</p>
+<pre><code>| common lines                     |
+| ...                              |
+| &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD                     |
+| my lines                         |
+| as committed                     |
+| =======                          |
+| someone else                     |
+| lines                            |
+| &gt;&gt;&gt;&gt;&gt;&gt;&gt; master                   |
+| ...                              |
+| non conflicting lines            |</code></pre>
+</section><section id="solve-conflicts" class="slide level2">
+<h2>Solve conflicts</h2>
+<ol type="1">
+<li>Choose between two versions (or a mix)</li>
+<li>Edit files to remove unwanted lines (<code>&lt;&lt;&lt;&lt;</code> <code>====</code> <code>&gt;&gt;&gt;&gt;</code> …)</li>
+<li><code>git add file_with_conflicts.txt</code></li>
+<li><code>git commit</code></li>
+</ol>
+</section><section id="conflict-solved" class="slide level2">
+<h2>Conflict solved</h2>
+<p>We obtain 3 commits :</p>
+<ul>
+<li>my version</li>
+<li>the other version</li>
+<li>the conflict resolution</li>
+</ul>
+</section><section id="the-excquisite-cadaver-v0.3" class="slide level2">
+<h2>The excquisite cadaver v0.3</h2>
+</section><section id="branches" class="slide level2">
+<h2>Branches</h2>
+<ul>
+<li>Create a branch : <code>git branch new_branch</code></li>
+<li>Go to a branch : <code>git checkout my_branch</code></li>
+<li>Back to the default branch : <code>git checkout master</code></li>
+<li>share branches : <code>git push origin current_branch</code></li>
+</ul>
+</section><section id="merge" class="slide level2">
+<h2>Merge</h2>
+<ul>
+<li>go to the target branch : <code>git checkout master</code></li>
+<li>merge with the source branche : <code>git merge source_branch</code></li>
+</ul>
+</section></section>
+<section><section id="ecosystem-of-git-the-tools" class="title-slide slide level1"><h1>Ecosystem of Git : the tools</h1></section><section id="organize-team-work-saas" class="slide level2">
+<h2>Organize team work (saas)</h2>
+<ul>
+<li>Github</li>
+<li>Gitlab / framagit / …</li>
+<li>Bitbucket</li>
+</ul>
+</section><section id="access-points-open-source" class="slide level2">
+<h2>Access points (open source)</h2>
+<ul>
+<li>Gogs/Gitea</li>
+<li>Gitlab</li>
+</ul>
+</section><section id="portability" class="slide level2">
+<h2>Portability</h2>
+<ul>
+<li>SVN over GIT</li>
+<li>SVN to GIT</li>
+<li>Mercurial</li>
+<li>Bazaar</li>
+<li>…</li>
+</ul>
+<p>https://git-scm.com/book/en/v2/Git-and-Other-Systems-Git-as-a-Client</p>
+</section><section id="git-modules" class="slide level2">
+<h2>Git modules</h2>
+<ul>
+<li>git-annex
+</li></li>
+<li>git-mediawiki
+</li></li>
+<li>git-ftp
+</li></li>
+<li>git-cvs
+</li></li>
+<li>git-doc
+</li></li>
+<li>etckeeper: https://etckeeper.branchable.com/</li>
+<li>calypso : https://github.com/agx/calypso</li>
+<li>Avec les documents libreoffice https://hackriculture.fr/git-diff-de-fichiers-opendocument-libreoffice.html
+</li></li>
+</ul>
+</section></section>
 			</div>
 
 		</div>

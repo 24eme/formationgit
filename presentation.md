@@ -1,73 +1,73 @@
-# Présentation de GIT
+# GIT
 
-## Gestionnaire de versions (VCS)
+## Version Control Systems
 
-* Stocker les versions des changements de fichiers
-* Parcourir cette historique de changements
-* Revenir à une version précédente
+* Keep track of all versions and all changes of the files
+* Have acces to the history of all changes
+* Going back to a previous version
 
-## Utilisations
+## Uses
 
-* Projets informatiques (code source, logiciel, site web, etc...)
-* Données brutes lisibles (csv, config, texte, etc...)
+* IT projects (source code, software, web site, etc...)
+* RAW Data lisibles (csv, config, text, etc...)
 
-## Objectif
+## Goals
 
-* Comprendre
-* Travail en équipe
-* Revenir en arrière
-* Rassurant
-* Maintenabilité / Évolutivité
+* Understand
+* Team work
+* Going back
+* Reassuring
+* Maintainability / Scalability
 
-## Les Outils
+## Tools
 
-### Centralisé
+### Centralized
 
 * CVS (1990-2008)
 * SVN (2000)
 
-### Décentralisé
+### Decentralized
 
 * BitKeeper (1998)
 * Bazaar (2005)
 * Mercurial (2005)
 * Git (2005)
 
-## Un peu d'histoire
+## The birth of GIT
 
-Créé en 2005 par Linus Torvald
+Created in 2005 by Linus Torvald
 
-Noyau linux
+Linux Kernel
 
-Remplacer BitKeeper (propiétaire)
+Remplacement of BitKeeper (proprietary)
 
-Développé en 10 jours !
+First version in 10 days!
 
-Première release en 1 an (3,5 ans pour SVN)
+First release: 1 year (3,5 for SVN)
 
-## Succès
+## Success
 
-Tous les gros projets open source ont migré dessus :
+Used by the biggest open source projects:
 
-Noyau Linux, Python, PHP, Perl, Ubuntu ...
+Linux Kernel, Python, PHP, Perl, Ubuntu ...
 
-plus de 31 millions de projets open source
+Over 31 millions open source projets
 
-Utilisé par 12 millions de personnes
+Utilised by over 12 millions developpers
 
-Utilisé par Microsoft
+Even used by Microsoft ;-)
 
-## Décentralisé
+## Decentralized
 
-* Ce n'est pas une architecture client / serveur</li>
-* Tout le monde est dépôt</li>
-* Intelligence de versionnement sur chaque dépot</li>
-* Stockage des versions et partage séparés</li>
+* Not a « client / server » architecture</li>
+* Every user is a repository</li>
+* Versionning knowledge stored localy</li>
+* Storage and sharing are separated</li>
 
-## Avantage de la décentralisation
+## Benefits of the decentralization
 
-* Plus simple à déployer
-* Équipé pour gérer des conflits / fusions
-* Plusieurs modes de fonctionnement
-* Plus d'indépendance
-* Travail hors connexion
+* Easier to deploy
+* Conflits and merges are core
+* Allow diversity of usages
+* Better independance
+* Allow offline work
