@@ -115,4 +115,36 @@ We obtain 3 commits :
 ## Merge
 
 * go to the target branch : `git checkout master`
-* merge with the source branche : `git merge source_branch` 
+* merge with the source branche : `git merge source_branch`
+
+## Log explorer
+
+## Can you find the answer?
+
+1. Who did the penultimate commit? When?
+2. What is the last modified file?
+3. When was last modified the documentation for git blame ?
+4. Which line was been added to this file during the last commit?
+5. Which file was last modified in the perl directory?
+6. Who modified the line #1332 of the file commit.c? When?
+7. What is the commit number of this line #1332 modification?
+8. What is the comment associated with this commit?
+
+## About branches and tags?
+
+1. How many branches for this commit?
+2. How many version for this project?
+3. How many files modified between v1.0.0 and v1.0.0a?
+3. How many commits between v1.0.0 and v1.0.0a?
+4. What was missing in the file server-info.c between v1.0.0 and v1.0.0a?
+5. What is the date of the first version of git?
+6. What is the purpose of branches master, maint and next?
+
+## Statistics?
+
+1. How many commits in the branch?
+2. How many contributors in the project?
+3. Who is the most active contributor? How many commits he did?
+4. When was introduiced the option push.default simple in the documentation?
+5. Who cooks the most in the branch todo?
+6. What is the oldest line of code still used in the project? Who commited it?
