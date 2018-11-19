@@ -47,7 +47,7 @@
   * `git push`
 * observe the versions:
   * `git log`
-  * `git log --state`
+  * `git log --stat
   * `git log -p`
 
 ## The excquisite cadaver v0.2
