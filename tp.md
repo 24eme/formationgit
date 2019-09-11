@@ -18,7 +18,7 @@ Commandes vues : git add, git commit, git status, git pull, git push
 
 2. Tirage au sort général de noms pour que chacun aille écrire la suite de l'histoire d'une autre personne
 
-3. Chaque personne prend sont cadavre exquis et le met dans un fichier personnel en le supprimant du fichier commun en y rajoutant une phrase
+3. Chaque personne prend son cadavre exquis et le met dans un fichier personnel en le supprimant du fichier commun en y rajoutant une phrase
 
 4. Chaque personne va écrire une nouvelle phrase dans le cadavre exquis d'un autre
 
@@ -28,7 +28,7 @@ Commandes vues : git branch, git checkout, git merge, git fetch
 
 1. Création d'une branche nominative
 
-2. Ajout d'une phrase dans son cadavre exquis personnelle
+2. Ajout d'une phrase dans son cadavre exquis personnel
 
 3. Tirage au sort et récupération de la dernière phrase du tiré au sort dans son repository
 
@@ -48,7 +48,7 @@ Commandes vues : git reset, git checkout, git diff, git rm
 
 1. Aller sur l'ordinateur de son voisin de gauche, supprimer son fichier à soi et faire des modifications dans le fichier du voisin
 
-2. Deviner les modifications qui ont été apporté dans son fichier
+2. Deviner les modifications qui ont été apportée dans son fichier
 
 3. Annuler les modifications
 
@@ -115,12 +115,11 @@ Commandes vues : git clone, git log, git blame, git diff, git shortlog
 
 * Créer un dépot distant pour héberger le repository svn
 * Ajouter en remote ce nouveau repository dans le git svn et le pousser
-
 * Le faire ajouter le remote du nouveau dépot git
 
 ## Suivre les changements dans .bash_history
 
-### Initialisation d'un dépot personnelle
+### Initialisation d'un dépot personnel
 
 * Création d'un répot à la racine de l'espace utilisateur
 * Ajouter le .gitignore pour ne gérer que le .bash_history
@@ -156,7 +155,7 @@ Récupération
 
 * Retourner sur master
 * Ajouter tout en haut du fichier un titre
-* Commité
+* Commiter
 * Aller sur la branche de backup
 * Appliquer la modification
 
@@ -167,7 +166,7 @@ Récupération
 ### Rebase
 
 * Faire une fusion avec rebase
-* Melanger plusieurs commit en un seul
+* Mélanger plusieurs commit en un seul
 
 ## Pull request / patch
 
@@ -203,15 +202,15 @@ Récupération
 
 ### À penser pour le déroulement
 
-* Récapituler les commandes en début de journée (voire demi-journée)
+* Récapituler les commandes en début de journée/demi-journée
 * Terminer par un exercice récapitulatif
 
 ### Glossaire
 
-* Le répertoire de travail: un bac à sable où vous pouvez essayer vos modifications avant de les transférer dans votre index puis le valider dans votre historique.
-* Index: Zone de préparation
-* HEAD: Instantané de la dernière validation (pointeur vers le dernier commit de la branche en court)
-* HEAD^n = Pointe le nième commit depuis HEAD
+* Le répertoire de travail : un bac à sable où vous pouvez essayer vos modifications avant de les transférer dans votre index puis le valider dans votre historique.
+* Index : Zone de préparation
+* HEAD : Instantané de la dernière validation (pointeur vers le dernier commit de la branche en court)
+* HEAD^n : Pointe le n-ième commit depuis HEAD
 
 ### Ressources d'aides et schema
 
