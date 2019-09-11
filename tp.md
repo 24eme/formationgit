@@ -56,51 +56,65 @@ Commandes vues : git reset, git checkout, git diff, git rm
 
 5. Récupérer le fichier supprimé par son voisin
 
+
 ## Exploration de logs
 
-https://github.com/24eme/giilda.git
+Cloner le dépot de git : https://github.com/git/git.git
 
-Commandes vues : git clone, git log, git blame, git diff, git shortlog
+Nous allons l'explorer.
 
-1. Récupérer le code source de GIILDA (https://github.com/24eme/giilda.git)
+### Pouvez vous trouver les réponses à ces questions ?
 
-### Sur la branche master
+1. Qui a fait l'avant dernier commit ? Quand ?
 
-1. Qui a fait l'avant dernier commit et à quelle date ?
+2. Quel est le fichier qui a été modifié en dernier ?
 
-2. Quels sont les noms du/des fichier-s modifié-s dans l'avant avant dernier commit
+3. Quand a eu lieu la dernière modification de la documenation de git blame ?
 
-3. Quand a été modifié pour la dernière fois le fichier : project/apps/bivc/config/facture.yml
+4. Quelles sont les lignes qui ont été ajoutées dans ce commit ?
 
-4. Quelle ligne a été ajouté à ce fichier lors du dernier commit ?
+5. Quel est le dernier fichier modifié dans le répertoire ``perl`` ?
 
-5. Quel fichier à été modifié en dernier dans le dossier project/test
+6. Qui a modifié la ligne #1332 du fichier commit.c ? Quand ?
 
-6. Par qui et quand a été modifié la ligne 116 du fichier project/plugins/acVinSocietePlugin/lib/model/Societe/Societe.class.php
+7. Quel est l'identifiant du commit de la modification de la ligne #1332 ?
 
-7. Quelle est le numéro de commit de cette modification ligne 116 ?
+8. Quel est le commentaire associé à ce commit ?
 
-8. Quelle est le commentaire écrit pour ce commit ?
 
-### Sur les branches
+### Et si on regardait les branches et les tags ?
 
-1. Quelle est la branche courante ?
+1. Combien y a-t-il de branches dans ce projet ?
 
-2. Combien de branches possèdent le projet ?
+2. Combien y a-t-il de version dans ce projet ?
 
-3. Quelle est la particularité du dernier commit dans la branche ivbd
+3. Combien de fichiers ont été modifiés entre v1.0.0 et v1.0.0a ?
 
-4. Combien de commit de master ne sont pas dans bivc ?
+3. Combien y a-t-il eu de commit entre v1.0.0 et v1.0.0a ?
 
-5. Combien de fichiers ont des différences de code entre master et bivc ?
+4. Qu'est ce qui manquait dans le fichier ``server-info.c`` entre v1.0.0 et v1.0.0a ?
 
-### Statistiques
+5. Quelle est la date du premier commit du dépot ?
 
-1. Combien de commit dans la branch master ?
+6. Quel est le but des branches ``master``, ``maint`` et ``next`` ?
 
-2. Combien de contributeurs dans le projet ?
 
-3. Que fait la commande git log --graph ?
+### Statistiques ?
+
+1. Combien y a-t-il de commits dans la banche ``master`` ?
+
+2. Combien y a-t-il de contributeurs à ce projet ?
+
+3. Quel est le contributeur le plus actif ? Combien de commit a-t-il réalisé ?
+
+4. Quand l'option « ``push.default simple`` » a-t-elle été introduite dans la documentation ?
+
+5. Qui cuisine le plus dans la banche ``todo`` ?
+
+6. Quelle est la plus vieille ligne de code toujours utilisée ? Qui en est l'auteur ?
+
+7. Que fait la commande git log --graph ?
+
 
 ## Git SVN
 
