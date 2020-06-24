@@ -69,15 +69,15 @@ Nous allons l'explorer.
 
 2. Quel est le fichier qui a été modifié en dernier ?
 
-3. Quand a eu lieu la dernière modification de la documenation de git blame ?
+3. Quand a eu lieu la dernière modification de la documenation de git blame (Documentation/git-blame.txt) ?
 
 4. Quelles sont les lignes qui ont été ajoutées dans ce commit ?
 
 5. Quel est le dernier fichier modifié dans le répertoire ``perl`` ?
 
-6. Qui a modifié la ligne #1332 du fichier commit.c ? Quand ?
+6. Qui a modifié la ligne #1323 du fichier commit.c ? Quand ?
 
-7. Quel est l'identifiant du commit de la modification de la ligne #1332 ?
+7. Quel est l'identifiant du commit de la modification de la ligne #1323 ?
 
 8. Quel est le commentaire associé à ce commit ?
 
